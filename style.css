@@ -10,8 +10,13 @@ font-size: 50px;
 .web{
     color: orange;
 }
+.web:hover{
+    color: rgb(82, 55, 6);
+    transition: 0.8s linear;
+}
 section{
     display: flex;
+    margin-bottom: 140px;
 }
 .web1{
 width: 50%;
@@ -32,4 +37,9 @@ padding-left: 5%;
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
 
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
