@@ -14,11 +14,11 @@ font-size: 50px;
     color: rgb(82, 55, 6);
     transition: 0.8s linear;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 140px;
 }
-.web1{
+.half-width{
 width: 50%;
 padding-left: 5%;
 }
@@ -42,4 +42,47 @@ background-repeat: no-repeat;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+ 
+}
+.exp-item:hover{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 15px;
+    box-shadow: 15px 15px 50px rgb(80, 76, 76);
+    transition: .8s linear;
+    border-radius: 15px;
+}
+.exp
+h2{
+    font-size: 40px;
+}
+.experience-area{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#wxyz{
+
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#wxyzn{
+
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
